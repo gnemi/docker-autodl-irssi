@@ -1,4 +1,4 @@
-FROM gnemi/irssi:alpine
+FROM irssi:alpine
 
 USER root
 
