@@ -21,7 +21,7 @@ RUN ln -s $HOME/.irssi/scripts/autodl-irssi.pl $HOME/.irssi/scripts/autorun/
 RUN mkdir $HOME/.autodl
 RUN touch ~/.autodl/autodl.cfg
 RUN echo 'load perl' > $HOME/.irssi/startup
-RUN chown -R user:user $HOME/.irssi
+RUN chown -R user:user $HOME
 
 RUN apk del .build-deps && rm -rf /tmp/*
 
